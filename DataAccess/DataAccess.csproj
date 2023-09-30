@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoWrapper.Core" Version="5.0.0-rc-04" />
+      <PackageReference Include="Duende.IdentityServer" Version="6.3.3" />
+      <PackageReference Include="Duende.IdentityServer.AspNetIdentity" Version="6.3.3" />
+      <PackageReference Include="Duende.IdentityServer.EntityFramework" Version="6.3.3" />
+      <PackageReference Include="Duende.IdentityServer.EntityFramework.Storage" Version="6.3.3" />
+      <PackageReference Include="Duende.IdentityServer.Storage" Version="6.3.3" />
+      <PackageReference Include="FluentValidation" Version="11.7.1" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.10" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.10">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+      <PackageReference Include="Serilog.AspNetCore" Version="7.0.0" />
+      <PackageReference Include="Serilog.Expressions" Version="3.4.2-dev-00120" />
+    </ItemGroup>
+
+
+
+</Project>

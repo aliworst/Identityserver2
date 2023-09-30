@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LLZLIPoS30gAb7ACAV3N1agOVG2uDoNy3cPHnu5m88k=",
+  "Source": "Identityserver",
+  "BasePath": "_content/Identityserver",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

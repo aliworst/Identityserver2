@@ -1,0 +1,128 @@
+2023-09-25T11:27:13.2422330+03:30 [INF] () Shut down complete
+2023-09-25T12:00:07.8781908+03:30 [INF] (Duende.IdentityServer.Startup) Starting Duende IdentityServer version "6.3.3+4b4117844553d1ce52966e37734f2b7cd285de89" (".NET 7.0.11")
+2023-09-25T12:00:07.9850507+03:30 [INF] (Duende.IdentityServer.Startup) Using the default authentication scheme "Identity.Application" for IdentityServer
+2023-09-25T12:00:08.0427357+03:30 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using '"C:\Users\a.norozi\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-09-25T12:00:08.0867355+03:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5239"
+2023-09-25T12:00:08.0882850+03:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-09-25T12:00:08.0887323+03:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-09-25T12:00:08.0891985+03:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver"
+2023-09-25T12:00:08.3609317+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.html - -
+2023-09-25T12:00:08.4541332+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.html - - - 200 - text/html;charset=utf-8 94.4484ms
+2023-09-25T12:00:08.5345995+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - -
+2023-09-25T12:00:08.5967904+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 62.1498ms
+2023-09-25T12:00:22.3065971+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5239/Api/V1/Users/da75d439-f9a9-4938-8022-4e751fd02248 - -
+2023-09-25T12:00:22.3275024+03:30 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint '"Identityserver.Controller.UserController.Get (Identityserver)"'
+2023-09-25T12:00:22.3375543+03:30 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker) Route matched with "{action = \"Get\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EntityFramework.DbModels.Users]] Get(System.String)" on controller "Identityserver.Controller.UserController" ("Identityserver").
+2023-09-25T12:00:22.5909447+03:30 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker) Executed action "Identityserver.Controller.UserController.Get (Identityserver)" in 246.1091ms
+2023-09-25T12:00:22.5926045+03:30 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint '"Identityserver.Controller.UserController.Get (Identityserver)"'
+2023-09-25T12:00:22.6024129+03:30 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor) Executing "ObjectResult", writing value of type '"AutoWrapper.Models.ApiProblemDetails"'.
+2023-09-25T12:00:22.6200534+03:30 [INF] (AutoWrapper.AutoWrapperMiddleware) Source:[::1] Request: GET http localhost:5239/Api/V1/Users/da75d439-f9a9-4938-8022-4e751fd02248   Responded with [500] in 292ms
+2023-09-25T12:00:22.6235585+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5239/Api/V1/Users/da75d439-f9a9-4938-8022-4e751fd02248 - - - 500 - application/problem+json;+charset=utf-8 316.9900ms
+2023-09-25T12:01:45.5240064+03:30 [INF] (Microsoft.Hosting.Lifetime) Application is shutting down...
+2023-09-25T12:01:45.5364513+03:30 [INF] () Shut down complete
+2023-09-25T12:02:02.1859093+03:30 [INF] () Shut down complete
+2023-09-25T12:02:19.3181723+03:30 [INF] () Shut down complete
+2023-09-25T12:02:56.0882154+03:30 [INF] (Duende.IdentityServer.Startup) Starting Duende IdentityServer version "6.3.3+4b4117844553d1ce52966e37734f2b7cd285de89" (".NET 7.0.11")
+2023-09-25T12:02:56.1914666+03:30 [INF] (Duende.IdentityServer.Startup) Using the default authentication scheme "Identity.Application" for IdentityServer
+2023-09-25T12:02:56.2480129+03:30 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using '"C:\Users\a.norozi\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-09-25T12:02:56.2906756+03:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5239"
+2023-09-25T12:02:56.2919741+03:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-09-25T12:02:56.2924114+03:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-09-25T12:02:56.2930428+03:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver"
+2023-09-25T12:02:56.7164660+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.html - -
+2023-09-25T12:02:56.8092370+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.html - - - 200 - text/html;charset=utf-8 93.5870ms
+2023-09-25T12:02:56.8855993+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - -
+2023-09-25T12:02:56.9428561+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 57.2208ms
+2023-09-25T12:03:25.2698740+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 POST http://localhost:5239/Api/V1/Users application/json 298
+2023-09-25T12:03:25.2787941+03:30 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware) No CORS policy found for the specified request.
+2023-09-25T12:03:25.2953241+03:30 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint '"Identityserver.Controller.UserController.Post (Identityserver)"'
+2023-09-25T12:03:25.3053472+03:30 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker) Route matched with "{action = \"Post\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EntityFramework.DbModels.Users]] Post(DataAccess.RequestModel.UsersDto)" on controller "Identityserver.Controller.UserController" ("Identityserver").
+2023-09-25T12:03:25.3607762+03:30 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor) Executing "BadRequestObjectResult", writing value of type '"System.Collections.Generic.List`1[[FluentValidation.Results.ValidationFailure, FluentValidation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0]]"'.
+2023-09-25T12:03:25.3688789+03:30 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker) Executed action "Identityserver.Controller.UserController.Post (Identityserver)" in 56.1551ms
+2023-09-25T12:03:25.3695838+03:30 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint '"Identityserver.Controller.UserController.Post (Identityserver)"'
+2023-09-25T12:03:25.3789468+03:30 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor) Executing "ObjectResult", writing value of type '"System.Text.Json.JsonElement"'.
+2023-09-25T12:03:25.3817349+03:30 [INF] (AutoWrapper.AutoWrapperMiddleware) Source:[::1] Request: POST http localhost:5239/Api/V1/Users  {
+  "userName": "Eminem",
+  "email": "Eminem@example.com",
+  "emailConfirmed": true,
+  "phoneNumber": "09934934984",
+  "phoneNumberConfirmed": true,
+  "password": "Ali1379",
+  "lockoutEnabled": true,
+  "twoFactorEnabled": true,
+  "accessFailedCount": 0,
+  "lockoutEnd": "2023-09-25T08:33:00.617Z"
+} Responded with [400] in 89ms
+2023-09-25T12:03:25.3835083+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 POST http://localhost:5239/Api/V1/Users application/json 298 - 400 - application/problem+json;+charset=utf-8 113.6702ms
+2023-09-25T12:03:36.5813150+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 POST http://localhost:5239/Api/V1/Users application/json 302
+2023-09-25T12:03:36.5849510+03:30 [INF] (Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware) No CORS policy found for the specified request.
+2023-09-25T12:03:36.5887844+03:30 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint '"Identityserver.Controller.UserController.Post (Identityserver)"'
+2023-09-25T12:03:36.5894166+03:30 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker) Route matched with "{action = \"Post\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EntityFramework.DbModels.Users]] Post(DataAccess.RequestModel.UsersDto)" on controller "Identityserver.Controller.UserController" ("Identityserver").
+2023-09-25T12:03:40.1456093+03:30 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("13"ms) [Parameters=["@p0='?' (Size = 36), @p1='?' (DbType = Int32), @p2='?' (Size = 36), @p3='?' (Size = 18), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (DbType = DateTimeOffset), @p8='?' (Size = 18), @p9='?' (Size = 6), @p10='?' (Size = 11), @p11='?' (Size = 11), @p12='?' (DbType = Boolean), @p13='?' (Size = 36), @p14='?' (DbType = Boolean), @p15='?' (Size = 6)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"IdentityUsers\" (\"Id\", \"AccessFailedCount\", \"ConcurrencyStamp\", \"Email\", \"EmailConfirmed\", \"Enabled\", \"LockoutEnabled\", \"LockoutEnd\", \"NormalizedEmail\", \"NormalizedUserName\", \"PasswordHash\", \"PhoneNumber\", \"PhoneNumberConfirmed\", \"SecurityStamp\", \"TwoFactorEnabled\", \"UserName\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9, @p10, @p11, @p12, @p13, @p14, @p15);"
+2023-09-25T12:03:40.1695047+03:30 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor) Executing "CreatedAtActionResult", writing value of type '"EntityFramework.DbModels.Users"'.
+2023-09-25T12:03:40.1848707+03:30 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker) Executed action "Identityserver.Controller.UserController.Post (Identityserver)" in 3590.2552ms
+2023-09-25T12:03:40.1855417+03:30 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint '"Identityserver.Controller.UserController.Post (Identityserver)"'
+2023-09-25T12:03:40.1914813+03:30 [INF] (AutoWrapper.AutoWrapperMiddleware) Source:[::1] Request: POST http localhost:5239/Api/V1/Users  {
+  "userName": "Eminem",
+  "email": "Eminem@example.com",
+  "emailConfirmed": true,
+  "phoneNumber": "09934934984",
+  "phoneNumberConfirmed": true,
+  "password": "Ali1379rez@",
+  "lockoutEnabled": true,
+  "twoFactorEnabled": true,
+  "accessFailedCount": 0,
+  "lockoutEnd": "2023-09-25T08:33:00.617Z"
+} Responded with [201] in 3604ms
+2023-09-25T12:03:40.1978287+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 POST http://localhost:5239/Api/V1/Users application/json 302 - 201 672 application/json 3616.5122ms
+2023-09-25T12:04:29.7481840+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5239/Api/V1/Users/d6558844-9acf-4365-b42e-2e4b00c5d247 - -
+2023-09-25T12:04:29.7553118+03:30 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint '"Identityserver.Controller.UserController.Get (Identityserver)"'
+2023-09-25T12:04:29.7586663+03:30 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker) Route matched with "{action = \"Get\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EntityFramework.DbModels.Users]] Get(System.String)" on controller "Identityserver.Controller.UserController" ("Identityserver").
+2023-09-25T12:04:29.8389916+03:30 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker) Executed action "Identityserver.Controller.UserController.Get (Identityserver)" in 75.5255ms
+2023-09-25T12:04:29.8400731+03:30 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint '"Identityserver.Controller.UserController.Get (Identityserver)"'
+2023-09-25T12:04:29.8460889+03:30 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor) Executing "ObjectResult", writing value of type '"AutoWrapper.Models.ApiProblemDetails"'.
+2023-09-25T12:04:29.8604345+03:30 [INF] (AutoWrapper.AutoWrapperMiddleware) Source:[::1] Request: GET http localhost:5239/Api/V1/Users/d6558844-9acf-4365-b42e-2e4b00c5d247   Responded with [500] in 105ms
+2023-09-25T12:04:29.8621253+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5239/Api/V1/Users/d6558844-9acf-4365-b42e-2e4b00c5d247 - - - 500 - application/problem+json;+charset=utf-8 113.9658ms
+2023-09-25T12:07:00.5799523+03:30 [INF] (Microsoft.Hosting.Lifetime) Application is shutting down...
+2023-09-25T12:07:00.5872264+03:30 [INF] () Shut down complete
+2023-09-25T12:07:20.0755460+03:30 [INF] () Shut down complete
+2023-09-25T12:07:54.7948060+03:30 [INF] (Duende.IdentityServer.Startup) Starting Duende IdentityServer version "6.3.3+4b4117844553d1ce52966e37734f2b7cd285de89" (".NET 7.0.11")
+2023-09-25T12:07:54.8975818+03:30 [INF] (Duende.IdentityServer.Startup) Using the default authentication scheme "Identity.Application" for IdentityServer
+2023-09-25T12:07:54.9534758+03:30 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using '"C:\Users\a.norozi\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-09-25T12:07:54.9960356+03:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5239"
+2023-09-25T12:07:54.9974119+03:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-09-25T12:07:54.9978468+03:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-09-25T12:07:54.9983071+03:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver"
+2023-09-25T12:07:55.3778731+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.html - -
+2023-09-25T12:07:55.4683427+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.html - - - 200 - text/html;charset=utf-8 91.5441ms
+2023-09-25T12:07:55.5421128+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - -
+2023-09-25T12:07:55.6051786+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 63.0429ms
+2023-09-25T12:08:09.5259096+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5239/Api/V1/Users/d6558844-9acf-4365-b42e-2e4b00c5d247 - -
+2023-09-25T12:08:09.5470326+03:30 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executing endpoint '"Identityserver.Controller.UserController.Get (Identityserver)"'
+2023-09-25T12:08:09.5571581+03:30 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker) Route matched with "{action = \"Get\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[EntityFramework.DbModels.Users]] Get(System.String)" on controller "Identityserver.Controller.UserController" ("Identityserver").
+2023-09-25T12:08:13.0393508+03:30 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker) Executed action "Identityserver.Controller.UserController.Get (Identityserver)" in 3475.2105ms
+2023-09-25T12:08:13.0403487+03:30 [INF] (Microsoft.AspNetCore.Routing.EndpointMiddleware) Executed endpoint '"Identityserver.Controller.UserController.Get (Identityserver)"'
+2023-09-25T12:08:13.0495664+03:30 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor) Executing "ObjectResult", writing value of type '"AutoWrapper.Models.ApiProblemDetails"'.
+2023-09-25T12:08:13.0661102+03:30 [INF] (AutoWrapper.AutoWrapperMiddleware) Source:[::1] Request: GET http localhost:5239/Api/V1/Users/d6558844-9acf-4365-b42e-2e4b00c5d247   Responded with [500] in 3518ms
+2023-09-25T12:08:13.0693912+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5239/Api/V1/Users/d6558844-9acf-4365-b42e-2e4b00c5d247 - - - 500 - application/problem+json;+charset=utf-8 3543.5298ms
+2023-09-25T12:08:18.6267505+03:30 [INF] (Microsoft.Hosting.Lifetime) Application is shutting down...
+2023-09-25T12:08:18.6434408+03:30 [INF] () Shut down complete
+2023-09-25T13:00:47.6184226+03:30 [INF] (Duende.IdentityServer.Startup) Starting Duende IdentityServer version "6.3.3+4b4117844553d1ce52966e37734f2b7cd285de89" (".NET 7.0.11")
+2023-09-25T13:00:47.7252297+03:30 [INF] (Duende.IdentityServer.Startup) Using the default authentication scheme "Identity.Application" for IdentityServer
+2023-09-25T13:00:47.7878269+03:30 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using '"C:\Users\a.norozi\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-09-25T13:00:47.8386713+03:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5239"
+2023-09-25T13:00:47.8404482+03:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-09-25T13:00:47.8409515+03:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-09-25T13:00:47.8414765+03:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver"
+2023-09-25T13:00:48.2014539+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.html - -
+2023-09-25T13:00:48.3093253+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.html - - - 200 - text/html;charset=utf-8 109.2178ms
+2023-09-25T13:00:48.4053506+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - -
+2023-09-25T13:00:48.4737989+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 68.3816ms
+2023-09-25T13:00:49.3217690+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.html - -
+2023-09-25T13:00:49.3360632+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.html - - - 200 - text/html;charset=utf-8 14.2915ms
+2023-09-25T13:00:49.4148777+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - -
+2023-09-25T13:00:49.4229258+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 8.0327ms
+2023-09-25T13:00:55.5322953+03:30 [INF] (Microsoft.Hosting.Lifetime) Application is shutting down...
+2023-09-25T13:00:55.5497283+03:30 [INF] () Shut down complete

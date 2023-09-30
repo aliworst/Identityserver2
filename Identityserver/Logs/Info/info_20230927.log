@@ -1,0 +1,56 @@
+2023-09-27T09:47:53.1793481+03:30 [INF] (Duende.IdentityServer.Startup) Starting Duende IdentityServer version "6.3.3+4b4117844553d1ce52966e37734f2b7cd285de89" (".NET 7.0.11")
+2023-09-27T09:47:53.2780147+03:30 [INF] (Duende.IdentityServer.Startup) Using the default authentication scheme "Identity.Application" for IdentityServer
+2023-09-27T09:47:53.3385074+03:30 [INF] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) User profile is available. Using '"C:\Users\a.norozi\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-09-27T09:47:53.3797815+03:30 [INF] (Microsoft.Hosting.Lifetime) Now listening on: "http://localhost:5239"
+2023-09-27T09:47:53.3809928+03:30 [INF] (Microsoft.Hosting.Lifetime) Application started. Press Ctrl+C to shut down.
+2023-09-27T09:47:53.3814745+03:30 [INF] (Microsoft.Hosting.Lifetime) Hosting environment: "Development"
+2023-09-27T09:47:53.3819790+03:30 [INF] (Microsoft.Hosting.Lifetime) Content root path: "C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver"
+2023-09-27T09:47:53.5700982+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5239/swagger/index.html - -
+2023-09-27T09:47:53.6580694+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5239/swagger/index.html - - - 200 - text/html;charset=utf-8 89.4094ms
+2023-09-27T09:47:53.7925389+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - -
+2023-09-27T09:47:53.8497020+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5239/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 57.1561ms
+2023-09-27T09:48:00.2941220+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5239/.well-known/openid-configuration - -
+2023-09-27T09:48:00.3134864+03:30 [INF] (Duende.IdentityServer.Hosting.IdentityServerMiddleware) Invoking IdentityServer endpoint: "Duende.IdentityServer.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration"
+2023-09-27T09:48:00.7033013+03:30 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"k\".\"Id\", \"k\".\"Algorithm\", \"k\".\"Created\", \"k\".\"Data\", \"k\".\"DataProtected\", \"k\".\"IsX509Certificate\", \"k\".\"Use\", \"k\".\"Version\"
+FROM \"Keys\" AS \"k\"
+WHERE \"k\".\"Use\" = 'signing'"
+2023-09-27T09:48:00.7423589+03:30 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"k\".\"Id\", \"k\".\"Algorithm\", \"k\".\"Created\", \"k\".\"Data\", \"k\".\"DataProtected\", \"k\".\"IsX509Certificate\", \"k\".\"Use\", \"k\".\"Version\"
+FROM \"Keys\" AS \"k\"
+WHERE \"k\".\"Use\" = 'signing'"
+2023-09-27T09:48:00.9140480+03:30 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("7"ms) [Parameters=["@p0='?' (Size = 32), @p1='?' (Size = 5), @p2='?' (DbType = DateTime), @p3='?' (Size = 2480), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (Size = 7), @p7='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"Keys\" (\"Id\", \"Algorithm\", \"Created\", \"Data\", \"DataProtected\", \"IsX509Certificate\", \"Use\", \"Version\")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);"
+2023-09-27T09:48:05.9562593+03:30 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"k\".\"Id\", \"k\".\"Algorithm\", \"k\".\"Created\", \"k\".\"Data\", \"k\".\"DataProtected\", \"k\".\"IsX509Certificate\", \"k\".\"Use\", \"k\".\"Version\"
+FROM \"Keys\" AS \"k\"
+WHERE \"k\".\"Use\" = 'signing'"
+2023-09-27T09:48:06.1637927+03:30 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"i\".\"Id\", \"i\".\"Created\", \"i\".\"Description\", \"i\".\"DisplayName\", \"i\".\"Emphasize\", \"i\".\"Enabled\", \"i\".\"Name\", \"i\".\"NonEditable\", \"i\".\"Required\", \"i\".\"ShowInDiscoveryDocument\", \"i\".\"Updated\", \"i0\".\"Id\", \"i0\".\"IdentityResourceId\", \"i0\".\"Type\", \"i1\".\"Id\", \"i1\".\"IdentityResourceId\", \"i1\".\"Key\", \"i1\".\"Value\"
+FROM \"IdentityResources\" AS \"i\"
+LEFT JOIN \"IdentityResourceClaims\" AS \"i0\" ON \"i\".\"Id\" = \"i0\".\"IdentityResourceId\"
+LEFT JOIN \"IdentityResourceProperties\" AS \"i1\" ON \"i\".\"Id\" = \"i1\".\"IdentityResourceId\"
+ORDER BY \"i\".\"Id\", \"i0\".\"Id\""
+2023-09-27T09:48:06.1970094+03:30 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"Id\", \"a\".\"AllowedAccessTokenSigningAlgorithms\", \"a\".\"Created\", \"a\".\"Description\", \"a\".\"DisplayName\", \"a\".\"Enabled\", \"a\".\"LastAccessed\", \"a\".\"Name\", \"a\".\"NonEditable\", \"a\".\"RequireResourceIndicator\", \"a\".\"ShowInDiscoveryDocument\", \"a\".\"Updated\", \"a0\".\"Id\", \"a0\".\"ApiResourceId\", \"a0\".\"Created\", \"a0\".\"Description\", \"a0\".\"Expiration\", \"a0\".\"Type\", \"a0\".\"Value\", \"a1\".\"Id\", \"a1\".\"ApiResourceId\", \"a1\".\"Scope\", \"a2\".\"Id\", \"a2\".\"ApiResourceId\", \"a2\".\"Type\", \"a3\".\"Id\", \"a3\".\"ApiResourceId\", \"a3\".\"Key\", \"a3\".\"Value\"
+FROM \"ApiResources\" AS \"a\"
+LEFT JOIN \"ApiResourceSecrets\" AS \"a0\" ON \"a\".\"Id\" = \"a0\".\"ApiResourceId\"
+LEFT JOIN \"ApiResourceScopes\" AS \"a1\" ON \"a\".\"Id\" = \"a1\".\"ApiResourceId\"
+LEFT JOIN \"ApiResourceClaims\" AS \"a2\" ON \"a\".\"Id\" = \"a2\".\"ApiResourceId\"
+LEFT JOIN \"ApiResourceProperties\" AS \"a3\" ON \"a\".\"Id\" = \"a3\".\"ApiResourceId\"
+ORDER BY \"a\".\"Id\", \"a0\".\"Id\", \"a1\".\"Id\", \"a2\".\"Id\""
+2023-09-27T09:48:06.2181890+03:30 [INF] (Microsoft.EntityFrameworkCore.Database.Command) Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"a\".\"Id\", \"a\".\"Created\", \"a\".\"Description\", \"a\".\"DisplayName\", \"a\".\"Emphasize\", \"a\".\"Enabled\", \"a\".\"LastAccessed\", \"a\".\"Name\", \"a\".\"NonEditable\", \"a\".\"Required\", \"a\".\"ShowInDiscoveryDocument\", \"a\".\"Updated\", \"a0\".\"Id\", \"a0\".\"ScopeId\", \"a0\".\"Type\", \"a1\".\"Id\", \"a1\".\"Key\", \"a1\".\"ScopeId\", \"a1\".\"Value\"
+FROM \"ApiScopes\" AS \"a\"
+LEFT JOIN \"ApiScopeClaims\" AS \"a0\" ON \"a\".\"Id\" = \"a0\".\"ScopeId\"
+LEFT JOIN \"ApiScopeProperties\" AS \"a1\" ON \"a\".\"Id\" = \"a1\".\"ScopeId\"
+ORDER BY \"a\".\"Id\", \"a0\".\"Id\""
+2023-09-27T09:48:06.2957419+03:30 [INF] (Duende.IdentityServer.Services.KeyManagement.KeyManager) Active signing key found with kid "288FE73590EBBA02F4570D40D88E0B47" for alg "RS256". Expires in 89.23:59:54. Retires in 103.23:59:54
+2023-09-27T09:48:06.3079726+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5239/.well-known/openid-configuration - - - 200 - application/json;+charset=UTF-8 6013.8869ms
+2023-09-27T09:48:06.3168804+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request starting HTTP/1.1 GET http://localhost:5239/favicon.ico - -
+2023-09-27T09:48:06.3350559+03:30 [INF] (Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor) Executing "ObjectResult", writing value of type '"AutoWrapper.Models.ApiProblemDetails"'.
+2023-09-27T09:48:06.3412824+03:30 [INF] (AutoWrapper.AutoWrapperMiddleware) Source:[::1] Request: GET http localhost:5239/favicon.ico   Responded with [404] in 15ms
+2023-09-27T09:48:06.3424418+03:30 [INF] (Microsoft.AspNetCore.Hosting.Diagnostics) Request finished HTTP/1.1 GET http://localhost:5239/favicon.ico - - - 404 - application/problem+json;+charset=utf-8 25.5542ms
+2023-09-27T10:06:37.6411626+03:30 [INF] (Microsoft.Hosting.Lifetime) Application is shutting down...
+2023-09-27T10:06:37.6503197+03:30 [INF] () Shut down complete

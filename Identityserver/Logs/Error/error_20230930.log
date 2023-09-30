@@ -1,0 +1,268 @@
+2023-09-30T11:15:36.7290714+03:30 [FTL] () Unhandled exception
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program.cs:line 17
+2023-09-30T11:16:02.9192367+03:30 [FTL] () Unhandled exception
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program.cs:line 17
+2023-09-30T11:16:18.2099545+03:30 [FTL] () Unhandled exception
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program.cs:line 17
+2023-09-30T18:40:39.1920008+03:30 [FTL] () Unhandled exception
+System.InvalidOperationException: Service type: IUserClaimsPrincipalFactory`1 not registered.
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddDecorator[TService](IServiceCollection services) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 100
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddTransientDecorator[TService,TImplementation](IServiceCollection services) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 91
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddAspNetIdentity[TUser](IIdentityServerBuilder builder) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 33
+   at Identityserver.Program.ServiceInitializer.RegisterIdentityServer(IServiceCollection services) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program\ServiceInitializer.cs:line 55
+   at Identityserver.Program.ServiceInitializer.RegisterApplicationServices(IServiceCollection services) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program\ServiceInitializer.cs:line 20
+   at Program.<Main>$(String[] args) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program.cs:line 15
+2023-09-30T18:42:44.9111655+03:30 [FTL] () Unhandled exception
+System.InvalidOperationException: Service type: IUserClaimsPrincipalFactory`1 not registered.
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddDecorator[TService](IServiceCollection services) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 100
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddTransientDecorator[TService,TImplementation](IServiceCollection services) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 91
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddAspNetIdentity[TUser](IIdentityServerBuilder builder) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 33
+   at Identityserver.Program.ServiceInitializer.RegisterIdentityServer(IServiceCollection services) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program\ServiceInitializer.cs:line 57
+   at Identityserver.Program.ServiceInitializer.RegisterApplicationServices(IServiceCollection services) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program\ServiceInitializer.cs:line 20
+   at Program.<Main>$(String[] args) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program.cs:line 15
+2023-09-30T18:44:50.3583092+03:30 [FTL] () Unhandled exception
+System.InvalidOperationException: Service type: IUserClaimsPrincipalFactory`1 not registered.
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddDecorator[TService](IServiceCollection services) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 100
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddTransientDecorator[TService,TImplementation](IServiceCollection services) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 91
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddAspNetIdentity[TUser](IIdentityServerBuilder builder) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 33
+   at Identityserver.Program.ServiceInitializer.RegisterIdentityServer(IServiceCollection services) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program\ServiceInitializer.cs:line 57
+   at Identityserver.Program.ServiceInitializer.RegisterApplicationServices(IServiceCollection services) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program\ServiceInitializer.cs:line 20
+   at Program.<Main>$(String[] args) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program.cs:line 15
+2023-09-30T18:46:17.6785497+03:30 [FTL] () Unhandled exception
+System.InvalidOperationException: Service type: IUserClaimsPrincipalFactory`1 not registered.
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddDecorator[TService](IServiceCollection services) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 100
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddTransientDecorator[TService,TImplementation](IServiceCollection services) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 91
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddAspNetIdentity[TUser](IIdentityServerBuilder builder) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 33
+   at Identityserver.Program.ServiceInitializer.RegisterIdentityServer(IServiceCollection services) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program\ServiceInitializer.cs:line 57
+   at Identityserver.Program.ServiceInitializer.RegisterApplicationServices(IServiceCollection services) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program\ServiceInitializer.cs:line 20
+   at Program.<Main>$(String[] args) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program.cs:line 15
+2023-09-30T18:48:08.6410027+03:30 [FTL] () Unhandled exception
+System.InvalidOperationException: Service type: IUserClaimsPrincipalFactory`1 not registered.
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddDecorator[TService](IServiceCollection services) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 100
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddTransientDecorator[TService,TImplementation](IServiceCollection services) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 91
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddAspNetIdentity[TUser](IIdentityServerBuilder builder) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 33
+   at Identityserver.Program.ServiceInitializer.RegisterIdentityServer(IServiceCollection services) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program\ServiceInitializer.cs:line 61
+   at Identityserver.Program.ServiceInitializer.RegisterApplicationServices(IServiceCollection services) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program\ServiceInitializer.cs:line 20
+   at Program.<Main>$(String[] args) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program.cs:line 15
+2023-09-30T18:48:31.9580096+03:30 [FTL] () Unhandled exception
+System.InvalidOperationException: Service type: IUserClaimsPrincipalFactory`1 not registered.
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddDecorator[TService](IServiceCollection services) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 100
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddTransientDecorator[TService,TImplementation](IServiceCollection services) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 91
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddAspNetIdentity[TUser](IIdentityServerBuilder builder) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 33
+   at Identityserver.Program.ServiceInitializer.RegisterIdentityServer(IServiceCollection services) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program\ServiceInitializer.cs:line 61
+   at Identityserver.Program.ServiceInitializer.RegisterApplicationServices(IServiceCollection services) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program\ServiceInitializer.cs:line 20
+   at Program.<Main>$(String[] args) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program.cs:line 15
+2023-09-30T18:49:30.5509683+03:30 [FTL] () Unhandled exception
+System.InvalidOperationException: Service type: IUserClaimsPrincipalFactory`1 not registered.
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddDecorator[TService](IServiceCollection services) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 100
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddTransientDecorator[TService,TImplementation](IServiceCollection services) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 91
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddAspNetIdentity[TUser](IIdentityServerBuilder builder) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 33
+   at Identityserver.Program.ServiceInitializer.RegisterIdentityServer(IServiceCollection services) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program\ServiceInitializer.cs:line 61
+   at Identityserver.Program.ServiceInitializer.RegisterApplicationServices(IServiceCollection services) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program\ServiceInitializer.cs:line 20
+   at Program.<Main>$(String[] args) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program.cs:line 15
+2023-09-30T19:02:47.0056452+03:30 [FTL] () Unhandled exception
+System.InvalidOperationException: Service type: IUserClaimsPrincipalFactory`1 not registered.
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddDecorator[TService](IServiceCollection services) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 100
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddTransientDecorator[TService,TImplementation](IServiceCollection services) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 91
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddAspNetIdentity[TUser](IIdentityServerBuilder builder) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 33
+   at Identityserver.Program.ServiceInitializer.RegisterIdentityServer(IServiceCollection services) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program\ServiceInitializer.cs:line 61
+   at Identityserver.Program.ServiceInitializer.RegisterApplicationServices(IServiceCollection services) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program\ServiceInitializer.cs:line 20
+   at Program.<Main>$(String[] args) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program.cs:line 15
+2023-09-30T19:03:17.5175420+03:30 [FTL] () Unhandled exception
+System.InvalidOperationException: Service type: IUserClaimsPrincipalFactory`1 not registered.
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddDecorator[TService](IServiceCollection services) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 100
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddTransientDecorator[TService,TImplementation](IServiceCollection services) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 91
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddAspNetIdentity[TUser](IIdentityServerBuilder builder) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 33
+   at Identityserver.Program.ServiceInitializer.RegisterIdentityServer(IServiceCollection services) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program\ServiceInitializer.cs:line 61
+   at Identityserver.Program.ServiceInitializer.RegisterApplicationServices(IServiceCollection services) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program\ServiceInitializer.cs:line 20
+   at Program.<Main>$(String[] args) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program.cs:line 15
+2023-09-30T19:03:53.3738198+03:30 [FTL] () Unhandled exception
+System.InvalidOperationException: Service type: IUserClaimsPrincipalFactory`1 not registered.
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddDecorator[TService](IServiceCollection services) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 100
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddTransientDecorator[TService,TImplementation](IServiceCollection services) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 91
+   at Microsoft.Extensions.DependencyInjection.IdentityServerBuilderExtensions.AddAspNetIdentity[TUser](IIdentityServerBuilder builder) in /_/src/AspNetIdentity/IdentityServerBuilderExtensions.cs:line 33
+   at Identityserver.Program.ServiceInitializer.RegisterIdentityServer(IServiceCollection services) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program\ServiceInitializer.cs:line 61
+   at Identityserver.Program.ServiceInitializer.RegisterApplicationServices(IServiceCollection services) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program\ServiceInitializer.cs:line 20
+   at Program.<Main>$(String[] args) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program.cs:line 15
+2023-09-30T19:05:15.9081615+03:30 [FTL] () Unhandled exception
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program.cs:line 17
+2023-09-30T19:05:33.0885444+03:30 [FTL] () Unhandled exception
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program.cs:line 17
+2023-09-30T19:05:52.6352151+03:30 [FTL] () Unhandled exception
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program.cs:line 17
+2023-09-30T19:10:43.1810062+03:30 [FTL] () Unhandled exception
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program.cs:line 17
+2023-09-30T19:16:12.7847316+03:30 [FTL] () Unhandled exception
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program.cs:line 17
+2023-09-30T19:20:39.6776224+03:30 [FTL] () Unhandled exception
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program.cs:line 17
+2023-09-30T19:22:10.1626003+03:30 [FTL] () Unhandled exception
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program.cs:line 17
+2023-09-30T19:30:11.4225106+03:30 [FTL] () Unhandled exception
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program.cs:line 17
+2023-09-30T19:30:18.0561595+03:30 [WRN] (Duende.License) You do not have a valid license key for the Duende software. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please start a conversation with us: https://duendesoftware.com/contact
+2023-09-30T19:31:18.1403927+03:30 [FTL] () Unhandled exception
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program.cs:line 17
+2023-09-30T19:31:35.8914313+03:30 [FTL] () Unhandled exception
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at Program.<Main>$(String[] args) in C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Program.cs:line 17
+2023-09-30T19:33:28.1553255+03:30 [WRN] (Duende.License) You do not have a valid license key for the Duende software. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please start a conversation with us: https://duendesoftware.com/contact
+2023-09-30T19:34:09.2914997+03:30 [WRN] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware) Failed to determine the https port for redirect.
+2023-09-30T19:34:09.3451200+03:30 [ERR] (AutoWrapper.AutoWrapperMiddleware) [500]: Each parameter in the deserialization constructor on type 'DataAccess.RequestModel.ConsentDto' must bind to an object property or field on deserialization. Each parameter name must match with a property or field on the object. Fields are only considered when 'JsonSerializerOptions.IncludeFields' is enabled. The match can be case-insensitive.
+System.InvalidOperationException: Each parameter in the deserialization constructor on type 'DataAccess.RequestModel.ConsentDto' must bind to an object property or field on deserialization. Each parameter name must match with a property or field on the object. Fields are only considered when 'JsonSerializerOptions.IncludeFields' is enabled. The match can be case-insensitive.
+   at System.Text.Json.ThrowHelper.ThrowInvalidOperationException_ConstructorParameterIncompleteBinding(Type parentType)
+   at System.Text.Json.Serialization.Converters.ObjectWithParameterizedConstructorConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCoreAsObject(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadCore[TValue](Utf8JsonReader& reader, JsonTypeInfo jsonTypeInfo, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ContinueDeserialize[TValue](ReadBufferState& bufferState, JsonReaderState& jsonReaderState, ReadStack& readStack, JsonTypeInfo jsonTypeInfo)
+   at System.Text.Json.JsonSerializer.ReadFromStreamAsync[TValue](Stream utf8Json, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter.ReadRequestBodyAsync(InputFormatterContext context, Encoding encoding)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder.BindModelAsync(ModelBindingContext bindingContext)
+   at Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder.BindModelAsync(ActionContext actionContext, IModelBinder modelBinder, IValueProvider valueProvider, ParameterDescriptor parameter, ModelMetadata metadata, Object value, Object container)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerBinderDelegateProvider.<>c__DisplayClass0_0.<<CreateBinderDelegate>g__Bind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at AutoWrapper.Base.AutoWrapperBase.InvokeNextAsync(HttpContext context, ApiRequestHandler requestHandler)
+2023-09-30T19:38:24.5901839+03:30 [WRN] (Duende.License) You do not have a valid license key for the Duende software. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please start a conversation with us: https://duendesoftware.com/contact
+2023-09-30T19:38:29.4134323+03:30 [WRN] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware) Failed to determine the https port for redirect.
+2023-09-30T19:39:38.1051428+03:30 [WRN] (Duende.License) You do not have a valid license key for the Duende software. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please start a conversation with us: https://duendesoftware.com/contact
+2023-09-30T19:39:43.5488232+03:30 [WRN] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware) Failed to determine the https port for redirect.
+2023-09-30T19:39:44.0200341+03:30 [ERR] (AutoWrapper.AutoWrapperMiddleware) [500]: IDX10634: Unable to create the SignatureProvider.
+Algorithm: 'RS256', SecurityKey: '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'
+ is not supported. The list of supported algorithms is available here: https://aka.ms/IdentityModel/supported-algorithms
+System.AggregateException: One or more errors occurred. (IDX10634: Unable to create the SignatureProvider.
+Algorithm: 'RS256', SecurityKey: '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'
+ is not supported. The list of supported algorithms is available here: https://aka.ms/IdentityModel/supported-algorithms)
+ ---> System.NotSupportedException: IDX10634: Unable to create the SignatureProvider.
+Algorithm: 'RS256', SecurityKey: '[PII of type 'Microsoft.IdentityModel.Tokens.SymmetricSecurityKey' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'
+ is not supported. The list of supported algorithms is available here: https://aka.ms/IdentityModel/supported-algorithms
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateJwtSecurityTokenPrivate(String issuer, String audience, ClaimsIdentity subject, Nullable`1 notBefore, Nullable`1 expires, Nullable`1 issuedAt, SigningCredentials signingCredentials, EncryptingCredentials encryptingCredentials, IDictionary`2 claimCollection, String tokenType)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.CreateToken(SecurityTokenDescriptor tokenDescriptor)
+   at BusinessRule.Services.ConsentServices.GenerateToken(Consent consent) in C:\Users\a.norozi\RiderProjects\Identityserver\BusinessRule\Services\ConsentServices.cs:line 70
+   at BusinessRule.Services.ConsentServices.CreateConsentAsync(ConsentDto request) in C:\Users\a.norozi\RiderProjects\Identityserver\BusinessRule\Services\ConsentServices.cs:line 50
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Text.Json.Serialization.Metadata.JsonPropertyInfo`1.GetMemberAndWriteJson(Object obj, WriteStack& state, Utf8JsonWriter writer)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryWrite(Utf8JsonWriter writer, T value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.TryWrite(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCore(Utf8JsonWriter writer, T& value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.Serialization.JsonConverter`1.WriteCoreAsObject(Utf8JsonWriter writer, Object value, JsonSerializerOptions options, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteCore[TValue](Utf8JsonWriter writer, TValue& value, JsonTypeInfo jsonTypeInfo, WriteStack& state)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at System.Text.Json.JsonSerializer.WriteStreamAsync[TValue](Stream utf8Json, TValue value, JsonTypeInfo jsonTypeInfo, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at AutoWrapper.Base.AutoWrapperBase.InvokeNextAsync(HttpContext context, ApiRequestHandler requestHandler)
+2023-09-30T19:40:49.9724656+03:30 [WRN] (Duende.License) You do not have a valid license key for the Duende software. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please start a conversation with us: https://duendesoftware.com/contact
+2023-09-30T19:40:55.5368701+03:30 [WRN] (Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware) Failed to determine the https port for redirect.
