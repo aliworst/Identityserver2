@@ -9,7 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b0886ae-0b56-4a33-8c48-ccc7fe5c1b4b" name="Changes" comment="adddddd" />
+    <list default="true" id="6b0886ae-0b56-4a33-8c48-ccc7fe5c1b4b" name="Changes" comment="commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +44,7 @@
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
         <option name="accountId" value="71e67878-3caa-405e-9c94-ea5c552e5632" />
-        <option name="url" value="https://github.com/aliworst/Identityserver.git" />
+        <option name="url" value="https://github.com/aliworst/Identityserver2.git" />
       </UrlAndAccount>
     </option>
   </component>
@@ -222,7 +222,7 @@
       <workItem from="1695026082381" duration="7092000" />
       <workItem from="1695039052237" duration="90913000" />
       <workItem from="1696055558963" duration="15081000" />
-      <workItem from="1696076226210" duration="7978000" />
+      <workItem from="1696076226210" duration="8770000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -336,7 +336,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696090489764</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="commit">
+      <option name="closed" value="true" />
+      <created>1696091128392</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1696091128392</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,7 +392,6 @@
     <MESSAGE value="how" />
     <MESSAGE value="push" />
     <MESSAGE value="yes" />
-    <MESSAGE value="commit" />
     <MESSAGE value="cimmit" />
     <MESSAGE value="add remove client" />
     <MESSAGE value="nothing" />
@@ -393,7 +400,8 @@
     <MESSAGE value="IDentity server push" />
     <MESSAGE value="commit and push Consent" />
     <MESSAGE value="adddddd" />
-    <option name="LAST_COMMIT_MESSAGE" value="adddddd" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
