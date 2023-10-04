@@ -18,10 +18,10 @@ public class UsersServices : IUsersServices
         {
             Id = insertedUser.Entity.Id,
             Enabled = insertedUser.Entity.Enabled,
-            UserName = insertedUser.Entity.UserName,
+            Username = insertedUser.Entity.Username,
             Forename = insertedUser.Entity.Forename,
             Surname = insertedUser.Entity.Surname,
-            NationalIdentifier = insertedUser.Entity.NationalIdentifier,
+            AccountNumber = insertedUser.Entity.AccountNumber,
             LockoutEnabled = insertedUser.Entity.LockoutEnabled,
             ConcurrencyStamp = insertedUser.Entity.ConcurrencyStamp,
             SecurityStamp = insertedUser.Entity.SecurityStamp,

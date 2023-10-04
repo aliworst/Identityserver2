@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+    <input type="text" id="firstname" placeholder="firstname">
+    <input type="text" id="lastname" placeholder="lastname">
+    <input type="text" id="AccountNumber" placeholder="AccountNumber">
+    <button onclick="sendPostRequest()">Submit</button>
+
+    <script>
+        
+        function sendPostRequest() {
+            debugger
+            const Forename = document.getElementById('firstname').value;
+            const Surname = document.getElementById('lastname').value;
+            const AccountNumber = document.getElementById('AccountNumber').value;
+            fetch('http://localhost:5239/Api/V1/Users', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ Forename: Forename, Surname: Surname , AccountNumber: AccountNumber})
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data);
+                    // Handle the response data here
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        }
+    </script>
+    </body>
+    <!-- <body>
+        <div class="center">
+            <h1>احراز هویت</h1>
+            <form id="myform" action="Api/V1/Users" method="post">
+                <div class="text_Field">
+                    <input type="text" requierd>
+                    <span></span>
+                    <labal>firstname</labal>
+                </div>
+                <div class="text_Field">
+                    <input type="text" requierd>
+                    <span></span>
+                    <labal>lastname</labal>
+                </div>
+                <div class="text_Field">
+                    <input type="text" requierd>
+                    <span></span>
+                    <labal>AccountNumber</labal>
+                </div>
+                <input type="submit" value="تایید">
+            </form>
+        </div>
+    </body> -->
+</html>

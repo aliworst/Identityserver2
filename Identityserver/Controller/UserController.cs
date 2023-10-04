@@ -35,21 +35,14 @@ public class UserController : ControllerBase
     [ProducesResponseType(400)]
     public async Task<ActionResult<Users>> Post([FromBody]UsersDto user)
     {
-        PasswordValidator _validator = new PasswordValidator();
-        var validResult = _validator.Validate(user);
-        if (!validResult.IsValid)
-        {
-            return BadRequest(validResult.Errors);
-        }
         var userData = new Users()
         {
             Id = Guid.NewGuid().ToString(),
             Enabled = true,
-            UserName = user.UserName,
-            NationalIdentifier = user.NationalIdentifier,
+            Username = user.Username,
             Forename = user.Forename,
             Surname = user.Surname,
-            PasswordHash = user.Password,
+            AccountNumber = user.AccountNumber,
             LockoutEnabled = user.LockoutEnabled,
             ConcurrencyStamp = Guid.NewGuid().ToString(),
             SecurityStamp = Guid.NewGuid().ToString(),
@@ -58,8 +51,6 @@ public class UserController : ControllerBase
             LockoutEnd = user.LockoutEnd
         };
         var insertedUser = await _userServices.CreateUserAsync(userData);
-        
-        insertedUser.PasswordHash = user.Password;
         
         return CreatedAtAction(nameof(Get), new { id = insertedUser.Id}, insertedUser);
     }
@@ -84,12 +75,6 @@ public class UserController : ControllerBase
     [Route("{Id}")]
     public async Task<IActionResult> Update(String Id,[FromBody]UsersDto user)
     {
-        PasswordValidator _validator = new PasswordValidator();
-        var validResult = _validator.Validate(user);
-        if (!validResult.IsValid)
-        {
-            return BadRequest(validResult.Errors);
-        }
         var userToUpdate = await _userServices.GetUserAsync(Id);
         if (userToUpdate is null)
             throw new ApiProblemDetailsException(new ProblemDetails()
@@ -97,8 +82,7 @@ public class UserController : ControllerBase
                 Status = (int?)HttpStatusCode.NotFound,
                 Title = "UserNotFound",
             });
-        userToUpdate.UserName = user.UserName;
-        userToUpdate.PasswordHash = user.Password;
+        userToUpdate.Username = user.Username;
 
         var affectedRows = await _userServices.UpdateUsersAsync(userToUpdate);
 

@@ -20,7 +20,6 @@ public class UserRepository : IUserRepository
     
     public virtual async Task<EntityEntry<Users>> CreateUserAsync(Users user)
     {
-        user.PasswordHash = user.PasswordHash.ToSha256();
         var identityResult = await UsersdbContexts.IdentityUsers.AddAsync(user);
         await UsersdbContexts.SaveChangesAsync();
         return identityResult;

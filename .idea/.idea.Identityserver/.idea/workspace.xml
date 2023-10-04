@@ -9,7 +9,125 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b0886ae-0b56-4a33-8c48-ccc7fe5c1b4b" name="Changes" comment="commit" />
+    <list default="true" id="6b0886ae-0b56-4a33-8c48-ccc7fe5c1b4b" name="Changes" comment="Unversioned add">
+      <change afterPath="$PROJECT_DIR$/BusinessRule/Services/AuthorizeService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BusinessRule/Services/IAuthorizeService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DataAccess/RequestModel/AuthorizeDto.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Identityserver/Controller/AuthorizeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Identityserver/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Identityserver/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessRule/BusinessRule.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessRule/BusinessRule.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessRule/Services/ConsentServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessRule/Services/ConsentServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessRule/Services/UsersServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessRule/Services/UsersServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessRule/bin/Debug/net7.0/BusinessRule.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessRule/bin/Debug/net7.0/BusinessRule.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessRule/bin/Debug/net7.0/BusinessRule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessRule/bin/Debug/net7.0/BusinessRule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessRule/bin/Debug/net7.0/BusinessRule.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessRule/bin/Debug/net7.0/BusinessRule.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessRule/bin/Debug/net7.0/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessRule/bin/Debug/net7.0/DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessRule/bin/Debug/net7.0/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessRule/bin/Debug/net7.0/DataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessRule/bin/Debug/net7.0/EntityFramework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessRule/bin/Debug/net7.0/EntityFramework.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessRule/bin/Debug/net7.0/EntityFramework.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessRule/bin/Debug/net7.0/EntityFramework.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessRule/obj/BusinessRule.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessRule/obj/BusinessRule.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessRule/obj/BusinessRule.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessRule/obj/BusinessRule.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessRule/obj/BusinessRule.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessRule/obj/BusinessRule.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessRule/obj/Debug/net7.0/BusinessRule.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessRule/obj/Debug/net7.0/BusinessRule.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessRule/obj/Debug/net7.0/BusinessRule.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessRule/obj/Debug/net7.0/BusinessRule.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessRule/obj/Debug/net7.0/BusinessRule.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessRule/obj/Debug/net7.0/BusinessRule.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessRule/obj/Debug/net7.0/BusinessRule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessRule/obj/Debug/net7.0/BusinessRule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessRule/obj/Debug/net7.0/BusinessRule.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessRule/obj/Debug/net7.0/BusinessRule.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessRule/obj/Debug/net7.0/ref/BusinessRule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessRule/obj/Debug/net7.0/ref/BusinessRule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessRule/obj/Debug/net7.0/refint/BusinessRule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessRule/obj/Debug/net7.0/refint/BusinessRule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessRule/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessRule/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessRule/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessRule/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessRule/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessRule/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessRule/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessRule/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BusinessRule/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/BusinessRule/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/DataAccess.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/DataAccess.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/Methods/PasswordValidator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/Methods/PasswordValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/RequestModel/UsersDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/RequestModel/UsersDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/net7.0/DataAccess.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/net7.0/DataAccess.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/net7.0/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/net7.0/DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/bin/Debug/net7.0/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/bin/Debug/net7.0/DataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/DataAccess.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/DataAccess.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/DataAccess.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/DataAccess.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/DataAccess.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/DataAccess.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/DataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/ref/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/ref/DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/refint/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/Debug/net7.0/refint/DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataAccess/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DataAccess/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFramework/DbModels/Consent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFramework/DbModels/Consent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFramework/DbModels/Users.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFramework/DbModels/Users.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFramework/EntityFramework.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFramework/EntityFramework.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFramework/Repositories/UserRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFramework/Repositories/UserRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFramework/bin/Debug/net7.0/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFramework/bin/Debug/net7.0/DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFramework/bin/Debug/net7.0/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFramework/bin/Debug/net7.0/DataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFramework/bin/Debug/net7.0/EntityFramework.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFramework/bin/Debug/net7.0/EntityFramework.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFramework/bin/Debug/net7.0/EntityFramework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFramework/bin/Debug/net7.0/EntityFramework.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFramework/bin/Debug/net7.0/EntityFramework.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFramework/bin/Debug/net7.0/EntityFramework.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFramework/obj/Debug/net7.0/EntityFramework.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFramework/obj/Debug/net7.0/EntityFramework.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFramework/obj/Debug/net7.0/EntityFramework.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFramework/obj/Debug/net7.0/EntityFramework.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFramework/obj/Debug/net7.0/EntityFramework.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFramework/obj/Debug/net7.0/EntityFramework.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFramework/obj/Debug/net7.0/EntityFramework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFramework/obj/Debug/net7.0/EntityFramework.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFramework/obj/Debug/net7.0/EntityFramework.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFramework/obj/Debug/net7.0/EntityFramework.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFramework/obj/Debug/net7.0/ref/EntityFramework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFramework/obj/Debug/net7.0/ref/EntityFramework.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFramework/obj/Debug/net7.0/refint/EntityFramework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFramework/obj/Debug/net7.0/refint/EntityFramework.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFramework/obj/EntityFramework.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFramework/obj/EntityFramework.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFramework/obj/EntityFramework.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFramework/obj/EntityFramework.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFramework/obj/EntityFramework.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFramework/obj/EntityFramework.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFramework/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFramework/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFramework/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFramework/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFramework/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFramework/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFramework/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFramework/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EntityFramework/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/EntityFramework/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/Controller/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/Controller/UserController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/IdentityServer.db" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/IdentityServer.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/IdentityServer.db-shm" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/IdentityServer.db-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/IdentityServer.db-wal" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/IdentityServer.db-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/Identityserver.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/Identityserver.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/Logs/Error/error_20230919_002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/Logs/Error/error_20230920.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/Logs/Error/error_20230923.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/Logs/Info/info_20230919_002.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/Logs/Info/info_20230920.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/Logs/Info/info_20230923.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/Migrations/20230930153533_Users.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/Migrations/20230930153533_Users.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/Migrations/UserDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/Program/MiddlewareInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/Program/MiddlewareInitializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/Program/ServiceInitializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/Program/ServiceInitializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/bin/Debug/net7.0/BusinessRule.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/bin/Debug/net7.0/BusinessRule.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/bin/Debug/net7.0/BusinessRule.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/bin/Debug/net7.0/BusinessRule.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/bin/Debug/net7.0/DataAccess.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/bin/Debug/net7.0/DataAccess.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/bin/Debug/net7.0/DataAccess.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/bin/Debug/net7.0/DataAccess.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/bin/Debug/net7.0/EntityFramework.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/bin/Debug/net7.0/EntityFramework.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/bin/Debug/net7.0/EntityFramework.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/bin/Debug/net7.0/EntityFramework.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/bin/Debug/net7.0/Identityserver.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/bin/Debug/net7.0/Identityserver.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/bin/Debug/net7.0/Identityserver.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/bin/Debug/net7.0/Identityserver.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/bin/Debug/net7.0/Identityserver.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/bin/Debug/net7.0/Identityserver.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/bin/Debug/net7.0/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/bin/Debug/net7.0/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/obj/Debug/net7.0/Identityserver.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/obj/Debug/net7.0/Identityserver.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/obj/Debug/net7.0/Identityserver.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/obj/Debug/net7.0/Identityserver.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/obj/Debug/net7.0/Identityserver.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/obj/Debug/net7.0/Identityserver.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/obj/Debug/net7.0/Identityserver.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/obj/Debug/net7.0/Identityserver.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/obj/Debug/net7.0/Identityserver.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/obj/Debug/net7.0/Identityserver.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/obj/Debug/net7.0/Identityserver.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/obj/Debug/net7.0/Identityserver.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/obj/Debug/net7.0/Identityserver.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/obj/Debug/net7.0/Identityserver.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/obj/Debug/net7.0/ref/Identityserver.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/obj/Debug/net7.0/ref/Identityserver.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/obj/Debug/net7.0/refint/Identityserver.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/obj/Debug/net7.0/refint/Identityserver.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/obj/Identityserver.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/obj/Identityserver.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Identityserver/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Identityserver/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,14 +169,17 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1e8feaadf5c3fa14d36ea2a638c432a2e1a47b7837d8b83d88303c5d9c15cf/AsyncValueTaskMethodBuilderT.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/20f1b79db29fe0c6f7db42c4c4796268198a2c943e80e4185e1eb4c0c269ae4/SR.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/39f0757441559c2badc3631a8b993aa2295383447fcb6ef47b8e89e5b58edb/JwtSecurityTokenHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3abf5d0462cbdbcc93a77b1812180894425d0ef6544aa6a38653967eff1/ConfigurationDbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3b607b40e40cd74fced81c3dca8dc7263efedb2183f299bd88e1cadd2d6/IdentityProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3e7a5d9e8f1e8fc8895e3999e4b986ebd69c6f311e8a7f7ba94f4560a54a89/IdentityDbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4393b886a286b7656c92b4aee5d9759858ee3ca3f858a1b518be26bea0c7/String.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/465381e957487ffa9f66ed8c32154c8df44ae420e4861865f7adaea1da5b7b2a/AuthorizationRequest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/4814769064f5e713cafc5c973c568bba8c8d2a512d3b924020b9c3802c5f7132/Client.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5639efd3c1b1c78d577633b55ad3c56de91530a77a3117ec6256e5cfc9c131/String.Comparison.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/61456c03b73de94b138b84e99a1dd7df1ab6377468371e9f88131eaf52713/IConfigurationDbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/66c3c1fbae4df879cbff3a39a35a496b3931c215419c69ebe663317bbe2e/CultureInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6b22deb19ce0b89e61ef8bd08328a255c221132b2e4c11b840e58a852e/SecurityTokenHandler.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/783dc34dc567f3108d484b2f775dd5ff314ed8fbf8c85cc41a1ac03bdd13ca0/SR.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7d382df578ec93391918cfaa4ce7f4b8f35c9aed1241d6556dc9be26df13c/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8048fa5a29cdfd3bf91295443329afc94bcd47c018799fd83147cd78be55dc5b/Client.cs" root0="SKIP_HIGHLIGHTING" />
@@ -66,15 +187,19 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/89c3b62f861452805e68ef7c981c25286d442d2722e92f8ba2c95f311d42be7/ResourceManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8d529ba1c5eed0dddf8e675da3f764791aff31a6c05d9f97f125e889be252/ValidatedRequest.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/92dfde712266e71d2fe0a453f8fe724dbfde51881fd3dcd69df64df73edfb/Consent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a499b7a12f93f54fbc8034f596cb127911b1e1c494b774568d6dbcbdf5a26fd/SymmetricSecurityKey.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a79b5d2c51ac991a2c226bf62bd3ca8611c8a3aa929d4917b68a40c7e8659c1f/JwtConstants.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/aacc74311ca994f12b71cddb22241be9d6654c65e94f5985c5488dee396916f/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b62bcdbd939d4018b3c2ba85ecffce6ab1d908/_5a3bc/IIdentity.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b8d2795a624ec1ca285de7c049f728624e8b8a82388f8d67db20c33442b28f53/NullReferenceException.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c651d095c368a316036f348381e75811db19be4f6e12c29cd32aacc9238a/Char.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d11d7bcc79f75ed8860b55fc73ce8f7a1f3a529282bd92c72662aafbfd/IdentityServerUser.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/da27e98bd3a207f9a776424c6fe42508caeddb16969efeb48f51a871f34247/ConsentResponse.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e16d18a12e2da09ef2492a9bc4dd18122beb268e8dab83169b0c0d7cac351/System.SR.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/e74356f198b598e97eaeea83e8b7b1f2bfe27c0a39fedf86bb7dc44827fbda/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/eeaf281031b3ffe3d44a91e71a5808c8d236a9caabbb947871e6dc415bd8b/Migration.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f4fbe0ce6dc0f6d0a55532826aba92314cfa8b7e989d98466a12c9b6310ba/JwtSecurityToken.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/fcad7d9dced6061375746115e5bc87fb5c3bfc4ba2565a2e65cf3275b2cef54/EntityEntry`.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DataAccess/Methods/GenerateClientSecret.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DataAccess/RequestModel/CreateClientRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EntityFramework/DbContexts/AdminDbContexts.cs" root0="FORCE_HIGHLIGHTING" />
@@ -103,29 +228,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/a.norozi/RiderProjects/Identityserver&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/a.norozi/RiderProjects/Identityserver",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "CodeLensConfigurable",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\a.norozi\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\a.norozi\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\a.norozi\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\a.norozi\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
+      "C:\\Users\\a.norozi\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
+      "C:\\Users\\a.norozi\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Identityserver: http">
     <configuration name="Identityserver: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Identityserver/Identityserver.csproj" />
@@ -222,7 +347,7 @@
       <workItem from="1695026082381" duration="7092000" />
       <workItem from="1695039052237" duration="90913000" />
       <workItem from="1696055558963" duration="15081000" />
-      <workItem from="1696076226210" duration="8770000" />
+      <workItem from="1696076226210" duration="60518000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -344,7 +469,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696091128392</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="add files">
+      <option name="closed" value="true" />
+      <created>1696137774324</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1696137774324</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Unversioned add">
+      <option name="closed" value="true" />
+      <created>1696137889579</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1696137889579</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,7 +542,9 @@
     <MESSAGE value="commit and push Consent" />
     <MESSAGE value="adddddd" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="add files" />
+    <MESSAGE value="Unversioned add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unversioned add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -424,6 +567,32 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Identityserver/Controller/AuthorizeController.cs</url>
+          <line>20</line>
+          <properties documentPath="C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Controller\AuthorizeController.cs" initialLine="20" containingFunctionPresentation="Method 'Get'">
+            <startOffsets>
+              <option value="546" />
+            </startOffsets>
+            <endOffsets>
+              <option value="547" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Identityserver/Controller/AuthorizeController.cs</url>
+          <line>23</line>
+          <properties documentPath="C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\Controller\AuthorizeController.cs" initialLine="23" containingFunctionPresentation="Method 'Get'">
+            <startOffsets>
+              <option value="659" />
+            </startOffsets>
+            <endOffsets>
+              <option value="660" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -38,6 +38,7 @@ C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\bin\Debug\net7.0\M
 C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\bin\Debug\net7.0\Microsoft.OpenApi.dll
 C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\bin\Debug\net7.0\Newtonsoft.Json.dll
 C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\bin\Debug\net7.0\Serilog.dll
 C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\bin\Debug\net7.0\Serilog.AspNetCore.dll
 C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\bin\Debug\net7.0\Serilog.Expressions.dll
@@ -116,3 +117,4 @@ C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\obj\Debug\net7.0\r
 C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\obj\Debug\net7.0\Identityserver.pdb
 C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\obj\Debug\net7.0\Identityserver.genruntimeconfig.cache
 C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\obj\Debug\net7.0\ref\Identityserver.dll
+C:\Users\a.norozi\RiderProjects\Identityserver\Identityserver\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

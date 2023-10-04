@@ -16,7 +16,7 @@ public class Consent
     public string? Type { get; set; } 
     public DateTime LastUpdateTime { get; set; }
     public string Parameters { get; set; }
-    public Status Status { get; set; }
+    public string Status { get; set; }
 }
 
 // [Keyless]

@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Identityserver.Migrations
 {
     [DbContext(typeof(UserDbContext))]
-    [Migration("20230930153533_Users")]
+    [Migration("20231002080418_Users")]
     partial class Users
     {
         /// <inheritdoc />
@@ -26,6 +26,9 @@ namespace Identityserver.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<int>("AccessFailedCount")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<long>("AccountNumber")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("ConcurrencyStamp")
@@ -45,13 +48,6 @@ namespace Identityserver.Migrations
                     b.Property<DateTimeOffset?>("LockoutEnd")
                         .HasColumnType("TEXT");
 
-                    b.Property<long>("NationalIdentifier")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("PasswordHash")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
                     b.Property<string>("SecurityStamp")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -63,8 +59,7 @@ namespace Identityserver.Migrations
                     b.Property<bool>("TwoFactorEnabled")
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("UserName")
-                        .IsRequired()
+                    b.Property<string>("Username")
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");

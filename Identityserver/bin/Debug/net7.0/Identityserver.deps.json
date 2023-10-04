@@ -17,9 +17,11 @@
           "Duende.IdentityServer.EntityFramework.Storage": "6.3.3",
           "Duende.IdentityServer.Storage": "6.3.3",
           "FluentValidation": "11.7.1",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.11",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.10",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.10",
+          "Newtonsoft.Json": "13.0.3",
           "Serilog.AspNetCore": "7.0.0",
           "Serilog.Expressions": "3.4.2-dev-00120",
           "Swashbuckle.AspNetCore": "6.5.0",
@@ -143,6 +145,17 @@
           "lib/net6.0/IdentityModel.dll": {
             "assemblyVersion": "6.1.0.0",
             "fileVersion": "6.1.0.0"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.11": {
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "6.15.1"
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {
+            "assemblyVersion": "7.0.11.0",
+            "fileVersion": "7.0.1123.42502"
           }
         }
       },
@@ -470,6 +483,14 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {
             "assemblyVersion": "2.2.0.0",
             "fileVersion": "2.2.1.1"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
           }
         }
       },
@@ -916,9 +937,12 @@
           "Duende.IdentityServer.Storage": "6.3.3",
           "EntityFramework": "1.0.0",
           "FluentValidation": "11.7.1",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.11",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.10",
+          "Newtonsoft.Json": "13.0.3",
           "Serilog.AspNetCore": "7.0.0",
-          "Serilog.Expressions": "3.4.2-dev-00120"
+          "Serilog.Expressions": "3.4.2-dev-00120",
+          "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
           "BusinessRule.dll": {}
@@ -933,9 +957,12 @@
           "Duende.IdentityServer.EntityFramework.Storage": "6.3.3",
           "Duende.IdentityServer.Storage": "6.3.3",
           "FluentValidation": "11.7.1",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.11",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.10",
+          "Newtonsoft.Json": "13.0.3",
           "Serilog.AspNetCore": "7.0.0",
-          "Serilog.Expressions": "3.4.2-dev-00120"
+          "Serilog.Expressions": "3.4.2-dev-00120",
+          "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
           "DataAccess.dll": {}
@@ -946,7 +973,11 @@
           "DataAccess": "1.0.0",
           "Duende.IdentityServer.EntityFramework.Storage": "6.3.3",
           "FluentValidation": "11.7.1",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.10"
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.11",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.10",
+          "Newtonsoft.Json": "13.0.3",
+          "Serilog.AspNetCore": "7.0.0",
+          "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
           "EntityFramework.dll": {}
@@ -1036,6 +1067,13 @@
       "sha512": "sha512-W9A6U26se5Jeo+QoczLfXW5LgBDXL0bBfnb2DWWZMivv9L52ls/85WtEGZQ8kSgOUecuBUlQZdpu02Uni8n1tg==",
       "path": "identitymodel/6.1.0",
       "hashPath": "identitymodel.6.1.0.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/7.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xFLgrIjh9DsfSpSRmfb8PWswYSLxkdU/3y2d3yrSA9v+sajnqYP2BARKrxZlO/RlKKMboosAIYP2MajPJilv5w==",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/7.0.11",
+      "hashPath": "microsoft.aspnetcore.authentication.jwtbearer.7.0.11.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.OpenIdConnect/7.0.0": {
       "type": "package",
@@ -1316,6 +1354,13 @@
       "sha512": "sha512-KZYeKBET/2Z0gY1WlTAK7+RHTl7GSbtvTLDXEZZojUdAPqpQNDL6tHv7VUpqfX5VEOh+uRGKaZXkuD253nEOBQ==",
       "path": "mono.texttemplating/2.2.1",
       "hashPath": "mono.texttemplating.2.2.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
     },
     "Serilog/2.12.0": {
       "type": "package",

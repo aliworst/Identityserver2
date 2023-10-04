@@ -8,11 +8,14 @@ public static partial class MiddlewareInitializer
     {
 
         app.UseRouting();
+        app.UseCors();
         app.UseIdentityServer();
         ConfigureSwagger(app);
         app.UseHttpsRedirection();
         app.MapControllers();
         app.UseAutoWrapper();
+        app.UseAuthentication();
+        app.UseAuthorization();
         return app;
     }
 
